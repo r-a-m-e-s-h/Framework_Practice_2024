@@ -17,6 +17,8 @@ public class StringReverse {
 		}
 		System.out.println(rev);
 		
+		System.out.println(txt.length());
+		
 	}
 
 }

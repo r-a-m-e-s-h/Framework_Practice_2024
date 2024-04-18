@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-03T09:25:10 IST" name="Default suite" finished-at="2024-04-03T09:25:10 IST" duration-ms="41">
+  <suite started-at="2024-04-18T14:04:37 IST" name="Default suite" finished-at="2024-04-18T14:05:28 IST" duration-ms="51213">
     <groups>
+      <group name="Regression">
+        <method signature="DataDriven_TC.confirmation_tc(java.util.HashMap)[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" name="confirmation_tc" class="TestCases.DataDriven_TC"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-04-03T09:25:10 IST" name="Default test" finished-at="2024-04-03T09:25:10 IST" duration-ms="41">
-      <class name="javaPrograms.swap2Number">
-        <test-method signature="swapWithOutTemp()[pri:0, instance:javaPrograms.swap2Number@1e683a3e]" started-at="2024-04-03T09:25:10 IST" name="swapWithOutTemp" finished-at="2024-04-03T09:25:10 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-04-18T14:04:37 IST" name="Default test" finished-at="2024-04-18T14:05:28 IST" duration-ms="51213">
+      <class name="TestCases.DataDriven_TC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:04:37 IST" name="setup" finished-at="2024-04-18T14:04:40 IST" duration-ms="3594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- swapWithOutTemp -->
-      </class> <!-- javaPrograms.swap2Number -->
+        </test-method> <!-- setup -->
+        <test-method signature="confirmation_tc(java.util.HashMap)[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:04:41 IST" name="confirmation_tc" data-provider="getData" finished-at="2024-04-18T14:04:58 IST" duration-ms="17841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passWord=Test@8795, emailId=testtom@test.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmation_tc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:04:58 IST" name="tearDown" finished-at="2024-04-18T14:04:59 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:04:59 IST" name="setup" finished-at="2024-04-18T14:05:02 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="confirmation_tc(java.util.HashMap)[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:05:02 IST" name="confirmation_tc" data-provider="getData" finished-at="2024-04-18T14:05:20 IST" duration-ms="17173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passWord=Test@8795, emailId=testtom@test.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmation_tc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:05:20 IST" name="tearDown" finished-at="2024-04-18T14:05:20 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:05:20 IST" name="setup" finished-at="2024-04-18T14:05:23 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderDisplayed()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:05:23 IST" name="orderDisplayed" finished-at="2024-04-18T14:05:27 IST" depends-on-methods="TestCases.DataDriven_TC.confirmation_tc" duration-ms="3596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DataDriven_TC@47faa49c]" started-at="2024-04-18T14:05:27 IST" name="tearDown" finished-at="2024-04-18T14:05:28 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.DataDriven_TC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
